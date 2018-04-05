@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>MockupsPoint</title>
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <!-- Metro 4 -->
+  <link rel="stylesheet" href="https://cdn.metroui.org.ua/v4/css/metro-all.min.css">
+</head>
+<body>
+
+  <div class="container-fluid">
+
+    <div class="app-bar-expand-md bg-cyan" data-role="appbar">
+      <ul class="app-bar-menu">
+        <li><a class="fg-white" href="#">MockupsPoint</a></li>
+      </ul>
+    </div>
+
+    <div class="grid mt-20">
+
+      <div class="row">
+        <div class="cell-2">
+          <ul data-role="treeview">
+            <li data-icon="<span class='mif-star-full'></span>" data-caption="Favorites">
+              <ul>
+                <li data-icon="<span class='mif-library'></span>" data-caption="Projects"></li>
+                <li data-icon="<span class='mif-download'></span>" data-caption="Downloads"></li>
+                <li data-icon="<img src='images/desktop.png'>" data-caption="Desktop"></li>
+              </ul>
+            </li>
+            <li data-icon="<span class='mif-onedrive'></span>" data-caption="OneDrive">
+              <ul>
+                <li data-caption="Documents"></li>
+                <li data-caption="Projects">
+                  <ul>
+                    <li data-caption="Web"></li>
+                    <li data-caption="Android"></li>
+                    <li data-caption="Windows"></li>
+                    <li data-caption="iOS"></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+        <div class="cell-10">
+          <h1>Site contents</h1>
+          <h4>Lists, Libraries, and other Apps</h4>
+
+          <hr />
+
+          <div class="tiles-grid">
+
+              <div onclick="location.href='new-application.html'" data-role="tile" data-size="medium" data-effect="hover-zoom-right">
+                <div class="slide-front">
+                  <span class="icon mif-plus"></span>
+                  <span class="branding-bar">Add an app</span>
+                </div>
+                <div class="slide-back d-flex flex-justify-center flex-align-center p-4 op-mauve">
+                  <p class="text-center">
+                    Add a new application to your site
+                  </p>
+                </div>
+              </div>
+
+              <div class="bg-orange" data-role="tile" data-size="medium" data-effect="hover-slide-down">
+                <div class="slide-front">
+                  <span class="icon mif-bold"></span>
+                  <span class="branding-bar">Blog</span>
+                </div>
+                <div class="slide-back d-flex flex-justify-center flex-align-center p-4 op-mauve">
+                  <p class="text-center">
+                    Click for edit
+                  </p>
+                </div>
+              </div>
+
+              <div class="bg-olive" data-role="tile" data-size="medium" data-effect="hover-zoom-up">
+                <div class="slide-front">
+                  <span class="icon mif-file-image"></span>
+                  <span class="branding-bar">Meats</span>
+                </div>
+                <div class="slide-back d-flex flex-justify-center flex-align-center p-4 op-mauve">
+                  <p class="text-center">
+                    Click for edit
+                  </p>
+                </div>
+              </div>
+
+              <div class="bg-steel" data-role="tile" data-size="medium" data-effect="hover-slide-up">
+                <div class="slide-front">
+                  <span class="icon mif-file-code"></span>
+                  <span class="branding-bar">Vegetables</span>
+                </div>
+                <div class="slide-back d-flex flex-justify-center flex-align-center p-4 op-mauve">
+                  <p class="text-center">
+                    Click for edit
+                  </p>
+                </div>
+              </div>
+
+              <div class="bg-amber" data-role="tile" data-size="medium" data-effect="hover-slide-up">
+                <div class="slide-front">
+                  <span class="icon mif-files-empty"></span>
+                  <span class="branding-bar">Drinks</span>
+                </div>
+                <div class="slide-back d-flex flex-justify-center flex-align-center p-4 op-mauve">
+                  <p class="text-center">
+                    Click for edit
+                  </p>
+                </div>
+              </div>
+
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+  </div>
+
+  <!-- jQuery first, then Metro UI JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdn.metroui.org.ua/v4/js/metro.min.js"></script>
+</body>
+</html>

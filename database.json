@@ -1,0 +1,8 @@
+{
+  "engine":"MySQL",
+  "host": "localhost",
+  "port": "12345",
+  "username":"sa",
+  "password":"xxx",
+  "name":"dbpoint"
+}
